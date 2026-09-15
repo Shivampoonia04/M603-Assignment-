@@ -1,0 +1,82 @@
+HallGrid conflict report
+Gisma Media Campus, Potsdam - Spring block week
+Largest student-group clique: 13 vs 12 timeslots
+
+=== Stage 1 - Backtracking (timeslots) ===
+Stage 1 - Backtracking (timeslots) | scheduled 33/34 | waste 394 seats | leftover AI-MATH
+Scheduled AI-STAT Mon 09:00 MW-LT-1 Wasted 4 seats
+Scheduled CS-LAB Mon 09:00 MW-LAB-SYS Perfect Fit
+Scheduled MBA-COM Mon 09:00 MW-LAB-GPU Perfect Fit
+Scheduled MED-LAW Mon 09:00 MW-SEM-2 Wasted 4 seats
+Scheduled PREP-ENG Mon 09:00 MW-LT-3 Wasted 30 seats
+Scheduled AI-LAB Mon 11:00 MW-LAB-GPU Perfect Fit
+Scheduled CS-NET Mon 11:00 MW-AUD-B Wasted 84 seats
+Scheduled DS-ETH Mon 11:00 MW-LT-3 Wasted 35 seats
+Scheduled MBA-DIG Mon 11:00 MW-SEM-1 Perfect Fit
+Scheduled MED-STORY Mon 11:00 MW-SEM-2 Wasted 4 seats
+Scheduled AI-CV Mon 14:00 MW-SEM-1 Perfect Fit
+Scheduled CS-PROJ Mon 14:00 MW-SEM-3 Perfect Fit
+Scheduled DS-LAB Mon 14:00 MW-LAB-SYS Wasted 2 seats
+Scheduled MBA-OPS Mon 14:00 MW-LT-3 Wasted 20 seats
+Scheduled AI-RL Mon 16:00 MW-LAB-GPU Perfect Fit
+Scheduled CS-HCI Mon 16:00 MW-LT-3 Wasted 11 seats
+Scheduled DS-CORE Mon 16:00 MW-LT-1 Wasted 16 seats
+Scheduled AI-PROG Tue 09:00 MW-LT-1 Wasted 4 seats
+Scheduled CS-ALG Tue 09:00 MW-AUD-B Wasted 70 seats
+Scheduled DS-VIS Tue 09:00 MW-SEM-1 Perfect Fit
+Scheduled MBA-STR Tue 09:00 MW-LT-3 Wasted 20 seats
+Scheduled MED-EDIT Tue 09:00 MW-EDIT Perfect Fit
+Scheduled AI-NLP Tue 11:00 MW-SEM-1 Perfect Fit
+Scheduled DS-SQL Tue 11:00 MW-LT-3 Wasted 27 seats
+Scheduled MED-LAB Tue 11:00 MW-STUDIO Perfect Fit
+Scheduled AI-PROD Tue 14:00 MW-SEM-3 Perfect Fit
+Scheduled MBA-FIN Tue 14:00 MW-LT-3 Wasted 20 seats
+Scheduled AI-ETH Tue 16:00 MW-LT-1 Wasted 4 seats
+Scheduled PREP-NUM Tue 16:00 MW-LT-3 Wasted 30 seats
+Scheduled AI-RES Wed 09:00 MW-SEM-3 Wasted 2 seats
+Scheduled AI-SEC Wed 11:00 MW-SEM-2 Perfect Fit
+Scheduled AI-CORE Wed 14:00 MW-LT-1 Wasted 4 seats
+Scheduled AI-ML Wed 16:00 MW-LT-3 Wasted 3 seats
+Unscheduled AI-MATH N/A N/A
+
+=== Stage 2 - Dynamic programming (rooms) ===
+Stage 2 - Dynamic programming (rooms) | scheduled 33/34 | waste 394 seats | leftover AI-MATH
+Scheduled AI-STAT Mon 09:00 MW-LT-1 Wasted 4 seats
+Scheduled CS-LAB Mon 09:00 MW-LAB-SYS Perfect Fit
+Scheduled MBA-COM Mon 09:00 MW-LAB-GPU Perfect Fit
+Scheduled MED-LAW Mon 09:00 MW-SEM-2 Wasted 4 seats
+Scheduled PREP-ENG Mon 09:00 MW-LT-3 Wasted 30 seats
+Scheduled AI-LAB Mon 11:00 MW-LAB-GPU Perfect Fit
+Scheduled CS-NET Mon 11:00 MW-AUD-B Wasted 84 seats
+Scheduled DS-ETH Mon 11:00 MW-LT-3 Wasted 35 seats
+Scheduled MBA-DIG Mon 11:00 MW-SEM-1 Perfect Fit
+Scheduled MED-STORY Mon 11:00 MW-SEM-2 Wasted 4 seats
+Scheduled AI-CV Mon 14:00 MW-SEM-1 Perfect Fit
+Scheduled CS-PROJ Mon 14:00 MW-SEM-3 Perfect Fit
+Scheduled DS-LAB Mon 14:00 MW-LAB-SYS Wasted 2 seats
+Scheduled MBA-OPS Mon 14:00 MW-LT-3 Wasted 20 seats
+Scheduled AI-RL Mon 16:00 MW-LAB-GPU Perfect Fit
+Scheduled CS-HCI Mon 16:00 MW-LT-3 Wasted 11 seats
+Scheduled DS-CORE Mon 16:00 MW-LT-1 Wasted 16 seats
+Scheduled AI-PROG Tue 09:00 MW-LT-1 Wasted 4 seats
+Scheduled CS-ALG Tue 09:00 MW-AUD-B Wasted 70 seats
+Scheduled DS-VIS Tue 09:00 MW-SEM-1 Perfect Fit
+Scheduled MBA-STR Tue 09:00 MW-LT-3 Wasted 20 seats
+Scheduled MED-EDIT Tue 09:00 MW-EDIT Perfect Fit
+Scheduled AI-NLP Tue 11:00 MW-SEM-1 Perfect Fit
+Scheduled DS-SQL Tue 11:00 MW-LT-3 Wasted 27 seats
+Scheduled MED-LAB Tue 11:00 MW-STUDIO Perfect Fit
+Scheduled AI-PROD Tue 14:00 MW-SEM-3 Perfect Fit
+Scheduled MBA-FIN Tue 14:00 MW-LT-3 Wasted 20 seats
+Scheduled AI-ETH Tue 16:00 MW-LT-1 Wasted 4 seats
+Scheduled PREP-NUM Tue 16:00 MW-LT-3 Wasted 30 seats
+Scheduled AI-RES Wed 09:00 MW-SEM-3 Wasted 2 seats
+Scheduled AI-SEC Wed 11:00 MW-SEM-2 Perfect Fit
+Scheduled AI-CORE Wed 14:00 MW-LT-1 Wasted 4 seats
+Scheduled AI-ML Wed 16:00 MW-LT-3 Wasted 3 seats
+Unscheduled AI-MATH N/A N/A
+
+Manual fix log
+- MSC-AI-Y1 needs 13 modules in a 12-slot block, so at least one leftover is structural.
+- A registrar should park the leftover seminar on a Thursday overflow, or split the GPU lab into two cohorts.
+- Do not force it into an occupied AI slot: that would put Year 1 AI students in two rooms at once.

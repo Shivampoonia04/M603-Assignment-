@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>HallGrid - Media Campus block week</title>
+<style>
+  body { font-family: 'Segoe UI', Calibri, sans-serif; margin: 24px; background: #f4f1ea; color: #1d2430; }
+  h1 { margin: 0; font-size: 28px; }
+  .sub { color: #5b4636; margin: 4px 0 18px; }
+  table { border-collapse: collapse; width: 100%; background: #fff; margin: 0 0 22px; }
+  th, td { border: 1px solid #c9bda8; padding: 8px; font-size: 13px; vertical-align: top; }
+  th { background: #2f4f4f; color: #fff; text-align: left; }
+  .ok { color: #1b6b3a; font-weight: 600; }
+  .bad { color: #9b1c1c; font-weight: 600; }
+  .chip { display: inline-block; background: #e7d7b1; padding: 2px 8px; border-radius: 10px; margin-right: 6px; }
+  .cls { background: #f7f3ea; border: 1px solid #ddd0b8; border-radius: 6px; padding: 6px 8px; margin: 0 0 6px; }
+  .cls:last-child { margin-bottom: 0; }
+  .room { color: #5b4636; }
+</style>
+</head>
+<body>
+<h1>HallGrid</h1>
+<div class='sub'>Gisma Media Campus, Potsdam - Spring block week · Shivam GH1061529</div>
+<p><span class='chip'>34 classes</span><span class='chip'>12 rooms</span><span class='chip'>12 slots</span><span class='chip'>AI-Y1 clique 13</span></p>
+<h2>Stage comparison</h2>
+<table>
+<tr><th>Stage</th><th>Scheduled</th><th>Unscheduled</th><th>Wasted seats</th></tr>
+<tr><td>Stage 1 - Backtracking (timeslots)</td><td>33</td><td>1</td><td>394</td></tr>
+<tr><td>Stage 2 - Dynamic programming (rooms)</td><td>33</td><td>1</td><td>394</td></tr>
+</table>
+<h2>Best-effort timetable</h2>
+<table>
+<tr><th>Time</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th></tr>
+<tr><th>09:00</th><td><div class='cls'><strong>AI-STAT</strong> - Statistical Learning<div class='room'>MW-LT-1 · 86 students</div><div class='ok'>Wasted 4 seats</div></div><div class='cls'><strong>CS-LAB</strong> - Systems Lab<div class='room'>MW-LAB-SYS · 22 students</div><div class='ok'>Perfect Fit</div></div><div class='cls'><strong>MBA-COM</strong> - Executive Communication<div class='room'>MW-LAB-GPU · 24 students</div><div class='ok'>Perfect Fit</div></div><div class='cls'><strong>MED-LAW</strong> - Media Law<div class='room'>MW-SEM-2 · 32 students</div><div class='ok'>Wasted 4 seats</div></div><div class='cls'><strong>PREP-ENG</strong> - Academic English<div class='room'>MW-LT-3 · 45 students</div><div class='ok'>Wasted 30 seats</div></div></td><td><div class='cls'><strong>AI-PROG</strong> - Python for Intelligent Systems<div class='room'>MW-LT-1 · 86 students</div><div class='ok'>Wasted 4 seats</div></div><div class='cls'><strong>DS-VIS</strong> - Visual Analytics<div class='room'>MW-SEM-1 · 40 students</div><div class='ok'>Perfect Fit</div></div><div class='cls'><strong>CS-ALG</strong> - Algorithm Design<div class='room'>MW-AUD-B · 110 students</div><div class='ok'>Wasted 70 seats</div></div><div class='cls'><strong>MBA-STR</strong> - Strategy Block<div class='room'>MW-LT-3 · 55 students</div><div class='ok'>Wasted 20 seats</div></div><div class='cls'><strong>MED-EDIT</strong> - Edit Bay Practice<div class='room'>MW-EDIT · 18 students</div><div class='ok'>Perfect Fit</div></div></td><td><div class='cls'><strong>AI-RES</strong> - Research Seminar<div class='room'>MW-SEM-3 · 28 students</div><div class='ok'>Wasted 2 seats</div></div></td></tr>
+<tr><th>11:00</th><td><div class='cls'><strong>AI-LAB</strong> - GPU Studio Practice<div class='room'>MW-LAB-GPU · 24 students</div><div class='ok'>Perfect Fit</div></div><div class='cls'><strong>DS-ETH</strong> - Data Ethics<div class='room'>MW-LT-3 · 40 students</div><div class='ok'>Wasted 35 seats</div></div><div class='cls'><strong>CS-NET</strong> - Computer Networks<div class='room'>MW-AUD-B · 96 students</div><div class='ok'>Wasted 84 seats</div></div><div class='cls'><strong>MBA-DIG</strong> - Digital Product<div class='room'>MW-SEM-1 · 40 students</div><div class='ok'>Perfect Fit</div></div><div class='cls'><strong>MED-STORY</strong> - Story Systems<div class='room'>MW-SEM-2 · 32 students</div><div class='ok'>Wasted 4 seats</div></div></td><td><div class='cls'><strong>AI-NLP</strong> - Language Models Studio<div class='room'>MW-SEM-1 · 40 students</div><div class='ok'>Perfect Fit</div></div><div class='cls'><strong>DS-SQL</strong> - Query Engineering<div class='room'>MW-LT-3 · 48 students</div><div class='ok'>Wasted 27 seats</div></div><div class='cls'><strong>MED-LAB</strong> - Motion Lab<div class='room'>MW-STUDIO · 16 students</div><div class='ok'>Perfect Fit</div></div></td><td><div class='cls'><strong>AI-SEC</strong> - Security of Models<div class='room'>MW-SEM-2 · 36 students</div><div class='ok'>Perfect Fit</div></div></td></tr>
+<tr><th>14:00</th><td><div class='cls'><strong>AI-CV</strong> - Computer Vision<div class='room'>MW-SEM-1 · 40 students</div><div class='ok'>Perfect Fit</div></div><div class='cls'><strong>DS-LAB</strong> - Warehouse Lab<div class='room'>MW-LAB-SYS · 20 students</div><div class='ok'>Wasted 2 seats</div></div><div class='cls'><strong>CS-PROJ</strong> - Team Studio<div class='room'>MW-SEM-3 · 30 students</div><div class='ok'>Perfect Fit</div></div><div class='cls'><strong>MBA-OPS</strong> - Operations<div class='room'>MW-LT-3 · 55 students</div><div class='ok'>Wasted 20 seats</div></div></td><td><div class='cls'><strong>AI-PROD</strong> - AI Product Studio<div class='room'>MW-SEM-3 · 30 students</div><div class='ok'>Perfect Fit</div></div><div class='cls'><strong>MBA-FIN</strong> - Managerial Finance<div class='room'>MW-LT-3 · 55 students</div><div class='ok'>Wasted 20 seats</div></div></td><td><div class='cls'><strong>AI-CORE</strong> - Neural Computation<div class='room'>MW-LT-1 · 86 students</div><div class='ok'>Wasted 4 seats</div></div></td></tr>
+<tr><th>16:00</th><td><div class='cls'><strong>AI-RL</strong> - Reinforcement Lab<div class='room'>MW-LAB-GPU · 24 students</div><div class='ok'>Perfect Fit</div></div><div class='cls'><strong>DS-CORE</strong> - Data Platforms<div class='room'>MW-LT-1 · 74 students</div><div class='ok'>Wasted 16 seats</div></div><div class='cls'><strong>CS-HCI</strong> - Interaction Design<div class='room'>MW-LT-3 · 64 students</div><div class='ok'>Wasted 11 seats</div></div></td><td><div class='cls'><strong>AI-ETH</strong> - Ethics of Autonomous Systems<div class='room'>MW-LT-1 · 86 students</div><div class='ok'>Wasted 4 seats</div></div><div class='cls'><strong>PREP-NUM</strong> - Numeracy Bridge<div class='room'>MW-LT-3 · 45 students</div><div class='ok'>Wasted 30 seats</div></div></td><td><div class='cls'><strong>AI-ML</strong> - Model Operations<div class='room'>MW-LT-3 · 72 students</div><div class='ok'>Wasted 3 seats</div></div></td></tr>
+</table>
+<h2>Manual fix log</h2>
+<ul>
+<li class='bad'>AI-MATH (Discrete Structures, 86 students, groups MSC-AI-Y1) - no legal slot left in the 3-day block. Split the cohort or add a Thursday overflow slot.</li>
+</ul>
+</body>
+</html>
